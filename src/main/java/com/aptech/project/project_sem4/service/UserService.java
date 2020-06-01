@@ -86,5 +86,13 @@ public class UserService implements UserDetailsService {
     {
         return sectionRepository.findAll();
     }
+    public List<Section> getListSectionUnDone()
+    {
+        return sectionRepository.getAllSectionUnDone();
+    }
+    public User saveUserProfile(User user)
+    {
+        return userRepository.save(user);
+    }
 
 }

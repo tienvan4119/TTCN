@@ -3,34 +3,14 @@
       xmlns:sec="https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity5">
 <head>
     <meta charset="UTF-8">
-    <title>Section</title>
+    <title>Result</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</head>
 <body>
 <div data-th-replace="user/user_top_nav :: user_top_nav"/></div>
-<div class="container-fluid">
-    <div  class="row" sec:authorize="isAuthenticated()" >
-        <div class="col-sm-3" th:each="section : ${listSection}" >
-            <form th:action="@{/createQuiz}">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title" th:text="${section.title}">t</h5>
-                            <img th:src="@{${'/images/' + section.title + '.jpg'}}" th:width="280px" th:height="220px"/>
-                        </a>
-                        <br>
-                        <button  style="text-align: center; margin-left: 100px; margin-top: 10px" name="section_id" th:value="${section.id}" class="btn btn-primary">Test Now</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+<H1>User detail of test</H1>
 </body>
-<script th:inline="javascript">
-    // location.reload();
-</script>
 </html>

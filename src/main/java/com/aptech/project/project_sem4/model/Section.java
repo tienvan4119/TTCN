@@ -14,6 +14,15 @@ public class Section {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     ObjectId id;
+    Boolean isDone;
+
+    public Boolean getDone() {
+        return isDone;
+    }
+
+    public void setDone(Boolean done) {
+        isDone = done;
+    }
 
     public ObjectId getId() {
         return id;

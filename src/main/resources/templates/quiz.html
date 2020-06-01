@@ -14,9 +14,9 @@
 <body>
 <div class="container">
     <h2>Quiz Online</h2>
-    <div id="exTab2" class="container">
-        <form th:action="@{/finishTest}" method="post">
-                <ul class="nav nav-tabs pagination">
+    <div id="exTab2" class="container" th:each="section : ${section}">
+        <form th:action="@{/api/quiz/Result}">
+            <ul class="nav nav-tabs pagination">
                 <li class="page-item"><a id="prev" class="page-link" href="#">Previous</a></li>
                 <li class="page-item active"> <a  data-toggle="tab" th:href="@{#1}">1</a ></li>
                 <li class="page-item"><a data-toggle="tab" href="#2">2</a></li>
@@ -30,16 +30,15 @@
                 <li class="page-item"><a data-toggle="tab" href="#10">10</a></li>
                 <li class="page-item"><a id="next" class="page-link" href="#">Next</a></li>
             </ul>
-            <button style="margin-left: 50px; margin-top: -65px" type="submit" class="btn btn-success">Finish</button>
+            <button  id="done" th:value="${section}" style="margin-left: 50px; margin-top: -65px" type="submit" class="btn btn-success">Finish</button>
             <div class="tab-content" >
                 <div class="tab-pane" th:each="question, state : ${listQuestion}" th:id="${state.count}">
                     <div>
-                        <h2 th:text="Question+' ' + ${state.count}"></h2>
-                        <div th:remove="tag" th:utext="${question.question_desc}"></div>
-                <!--              <img th:src="@{${'/images/image_question/' + question.question_desc }}" width="40%" height="40%"/>-->
+                        <h2 th:value="${question.id}" th:text="Question+' ' + ${state.count}"></h2>
+                        <div th:value="${question.id}" th:remove="tag" th:utext="${question.question_desc}"></div>
                         <div class="radio" th:each="choice :${listChoice}" th:if="${question.id.equals(choice.question_id)}">
                             <label>
-                               <input th:value="${choice.id}" type="radio" th:name="${question.id}"  th:text="${choice.choice_desc}">
+                               <input class="choice_id" th:value="${choice.id}" type="radio" th:name="${question.id}" name="choice_id" th:text="${choice.choice_desc}">
                            </label>
                            <br>
                            <br>
@@ -54,11 +53,9 @@
 <script th:inline="javascript">
     $( document ).ready(function() {
         $( ".tab-pane" ).first().addClass( "active" );
-    });
     $(function() {
         var nextBtn = $("#next"),
             prevBtn = $("#prev");
-
         nextBtn.on('click', function(e) {
             var active = $(".active");
             var next = active.next('.tab-pane');
@@ -81,6 +78,47 @@
             }
         });
     });
+         $(function() {
+             $('.choice_id').click(function () {
+                 console.log("abc");
+                 console.log($(this).val());
+                 var getChoiceId = $(this).val();
+                 console.log(getChoiceId);
+                 $.ajax({
+                     type: "POST",
+                     url: "/api/quiz/addChoice",
+                     dataType : 'json',
+                     data : {
+                         getChoiceId : getChoiceId
+                     },
+                     success: function (data) {
+
+                     },
+                 });
+             })
+         });
+        $(function() {
+            $('#done').click(function () {
+                //console.log("abc");
+                console.log($(this).val());
+                var getSectionId = $(this).val();
+                console.log(getSectionId);
+                $.ajax({
+                    type: "POST",
+                    url: "/api/quiz/finishTest",
+                    dataType : 'json',
+                    data : {
+                        getSectionId : getSectionId
+                    },
+                    success: function (data) {
+
+                    },
+                });
+
+            })
+        })
+    });
+
 </script>
 </body>
 </html>

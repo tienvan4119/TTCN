@@ -13,4 +13,7 @@ import java.util.List;
 public interface ChoiceRepository extends MongoRepository<Choice, Long> {
     @Query("{ question_id: ObjectId(\"?0\" )}")
     List<Choice> findChoiceByQuestionId(String question_id);
+
+    @Query("{ _id : ObjectId(\"?0\" )}")
+    public Choice findChoiceById(String choice_id);
 }
