@@ -1,13 +1,8 @@
 package com.aptech.project.project_sem4.service;
 
-import com.aptech.project.project_sem4.model.Role;
-import com.aptech.project.project_sem4.model.Section;
-import com.aptech.project.project_sem4.model.Topic;
-import com.aptech.project.project_sem4.model.User;
-import com.aptech.project.project_sem4.repository.RoleRepository;
-import com.aptech.project.project_sem4.repository.SectionRepository;
-import com.aptech.project.project_sem4.repository.TopicRepository;
-import com.aptech.project.project_sem4.repository.UserRepository;
+import com.aptech.project.project_sem4.model.*;
+import com.aptech.project.project_sem4.repository.*;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -32,7 +27,8 @@ public class UserService implements UserDetailsService {
     private BCryptPasswordEncoder bCryptPasswordEncoder;
     @Autowired
     private SectionRepository sectionRepository;
-
+@Autowired
+private ResultRepository resultRepository;
     public User findByEmail(String email) {
         return userRepository.findByEmail(email);
     }
@@ -86,9 +82,9 @@ public class UserService implements UserDetailsService {
     {
         return sectionRepository.findAll();
     }
-    public List<Section> getListSectionUnDone()
+    public List<Result> getListSection_Result(String user_id)
     {
-        return sectionRepository.getAllSectionUnDone();
+        return resultRepository.getListSection_Result(user_id);
     }
     public User saveUserProfile(User user)
     {

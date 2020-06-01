@@ -32,7 +32,21 @@ public class UserController {
     @RequestMapping(value = {"/", "/section"}, method = RequestMethod.GET)
     public String section(Model model) {
         List<User> listUser = userService.listAll();
-        List<Section> listSection = userService.getListSectionUnDone();
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String userName = authentication.getName();
+        ObjectId user_id = userService.findByEmail(userName).getId();
+        List<Section> listSection = userService.listAllSection();
+        List<Result> listSection_Result = userService.getListSection_Result(user_id.toString());
+        for(int i = 0; i< listSection.size(); i++)
+        {
+            for(int j = 0; j < listSection_Result.size(); j++)
+            {
+                if(listSection.get(i).getId().equals(listSection_Result.get(j).getSection_id()))
+                {
+                    listSection.remove(i);
+                }
+            }
+        }
         model.addAttribute("listUser", listUser);
         model.addAttribute("listSection", listSection);
         return "section";
