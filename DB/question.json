@@ -1,0 +1,481 @@
+[{
+  "_id": {
+    "$oid": "5e5c8afbab622d0fc8fd3e4e"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Main {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">public</code> <code class=\"c keyword bold\">static</code> <code class=\"c keyword bold\">void</code> <code class=\"c plain\">main(String args[]) {&nbsp;&nbsp; </code></div> <div class=\"line number3 index2 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">System.out.println(fun());</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">} </code></div> <div class=\"line number5 index4 alt2\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number6 index5 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c color1 bold\">int</code> <code class=\"c plain\">fun()</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">{</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">20;</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">}</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c plain\">}</code></div>",
+  "topic_id": {
+    "$oid": "5e22bfc3c216080b8cdd38f3"
+  }
+},{
+  "_id": {
+    "$oid": "5e5c8df0ab622d0fc8fd3e50"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Test {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">swap(Integer i, Integer j) {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Integer temp = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Integer(i);</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">i = j;</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">j = temp;</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Integer i = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Integer(</code><code class=\"java value\">10</code><code class=\"java plain\">);</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Integer j = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Integer(</code><code class=\"java value\">20</code><code class=\"java plain\">);</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">swap(i, j);</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"i = \"</code> <code class=\"java plain\">+ i + </code><code class=\"java string\">\", j = \"</code> <code class=\"java plain\">+ j);</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number13 index12 alt2\"><code class=\"java plain\">}</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e22bfc3c216080b8cdd38f3"
+  }
+},{
+  "_id": {
+    "$oid": "5e5c8df8ab622d0fc8fd3e51"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">intWrap {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">x;</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java plain\">} </code></div> <div class=\"line number4 index3 alt1\"><code class=\"java keyword\">public</code> <code class=\"java keyword\">class</code> <code class=\"java plain\">Main { </code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">intWrap i = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">intWrap();</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">i.x = </code><code class=\"java value\">10</code><code class=\"java plain\">;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">intWrap j = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">intWrap();</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">j.x = </code><code class=\"java value\">20</code><code class=\"java plain\">;</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">swap(i, j);</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"i.x = \"</code> <code class=\"java plain\">+ i.x + </code><code class=\"java string\">\", j.x = \"</code> <code class=\"java plain\">+ j.x);</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">} </code></div> <div class=\"line number13 index12 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">swap(intWrap i, intWrap j) {</code></div> <div class=\"line number14 index13 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">temp = i.x;</code></div> <div class=\"line number15 index14 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">i.x = j.x;</code></div> <div class=\"line number16 index15 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">j.x = temp;</code></div> <div class=\"line number17 index16 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number18 index17 alt1\"><code class=\"java plain\">}</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22bfc3c216080b8cdd38f3"
+  }
+},{
+  "_id": {
+    "$oid": "5e5c8e39ab622d0fc8fd3e52"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String args[]) {&nbsp;&nbsp; </code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(fun());</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}&nbsp;&nbsp; </code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">static</code> <code class=\"java keyword\">int</code> <code class=\"java plain\">fun(</code><code class=\"java keyword\">int</code> <code class=\"java plain\">x = </code><code class=\"java value\">0</code><code class=\"java plain\">)</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">{</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">return</code> <code class=\"java plain\">x;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java plain\">}</code></div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22bfc3c216080b8cdd38f3"
+  }
+},{
+  "_id": {
+    "$oid": "5e66065f8c3fc83164fe95bd"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Base::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number7 index6 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Derived </code><code class=\"java keyword\">extends</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Derived::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number13 index12 alt2\"><code class=\"java keyword\">public</code> <code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number14 index13 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number15 index14 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Base b = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Derived();;</code></div> <div class=\"line number16 index15 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">b.show();</code></div> <div class=\"line number17 index16 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number18 index17 alt1\"><code class=\"java plain\">}</code></div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e66066b8c3fc83164fe95be"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">final</code> <code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Base::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number7 index6 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Derived </code><code class=\"java keyword\">extends</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Derived::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number13 index12 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number14 index13 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number15 index14 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Base b = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Derived();;</code></div> <div class=\"line number16 index15 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">b.show();</code></div> <div class=\"line number17 index16 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number18 index17 alt1\"><code class=\"java plain\">}</code></div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e6606728c3fc83164fe95bf"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Base::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number7 index6 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Derived </code><code class=\"java keyword\">extends</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">show() {</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Derived::show() called\"</code><code class=\"java plain\">);</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number13 index12 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number14 index13 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number15 index14 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Base b = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Derived();;</code></div> <div class=\"line number16 index15 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">b.show();</code></div> <div class=\"line number17 index16 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number18 index17 alt1\"><code class=\"java plain\">}</code></div> </div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e6606788c3fc83164fe95c0"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\">Which of the following is true about inheritance in Java?</div> <div class=\"line number1 index0 alt2\">&nbsp;</div> <div class=\"line number1 index0 alt2\"> <pre>1) Private methods are final.</pre> <pre>2) Protected members are accessible within a package and     inherited classes outside the package.</pre> <pre>3) Protected methods are final.</pre> <pre>4) We cannot override private methods.</pre> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e66067e8c3fc83164fe95c1"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Base {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">Print() {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Base\"</code><code class=\"java plain\">);</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </code></div> <div class=\"line number5 index4 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number6 index5 alt1\">&nbsp;</div> <div class=\"line number7 index6 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Derived </code><code class=\"java keyword\">extends</code> <code class=\"java plain\">Base {&nbsp;&nbsp;&nbsp; </code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">Print() {</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(</code><code class=\"java string\">\"Derived\"</code><code class=\"java plain\">);</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java plain\">}</code></div> <div class=\"line number12 index11 alt1\">&nbsp;</div> <div class=\"line number13 index12 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main{</code></div> <div class=\"line number14 index13 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">DoPrint( Base o ) {</code></div> <div class=\"line number15 index14 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">o.Print();&nbsp;&nbsp; </code></div> <div class=\"line number16 index15 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number17 index16 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String[] args) {</code></div> <div class=\"line number18 index17 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Base x = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Base();</code></div> <div class=\"line number19 index18 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Base y = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Derived();</code></div> <div class=\"line number20 index19 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Derived z = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Derived();</code></div> <div class=\"line number21 index20 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">DoPrint(x);</code></div> <div class=\"line number22 index21 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">DoPrint(y);</code></div> <div class=\"line number23 index22 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">DoPrint(z);</code></div> <div class=\"line number24 index23 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number25 index24 alt2\"><code class=\"java plain\">}</code></div> </div> </div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e6606848c3fc83164fe95c2"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Base {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">public</code> <code class=\"c keyword bold\">void</code> <code class=\"c plain\">foo() { System.out.println(</code><code class=\"c string\">\"Base\"</code><code class=\"c plain\">); }</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c plain\">}</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number5 index4 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Derived extends Base {</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">private</code> <code class=\"c keyword bold\">void</code> <code class=\"c plain\">foo() { System.out.println(</code><code class=\"c string\">\"Derived\"</code><code class=\"c plain\">); } </code></div> <div class=\"line number7 index6 alt2\"><code class=\"c plain\">}</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number9 index8 alt2\"><code class=\"c keyword bold\">public</code> <code class=\"c keyword bold\">class</code> <code class=\"c plain\">Main {</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">public</code> <code class=\"c keyword bold\">static</code> <code class=\"c keyword bold\">void</code> <code class=\"c plain\">main(String args[]) {</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Base b = </code><code class=\"c keyword bold\">new</code> <code class=\"c plain\">Derived();</code></div> <div class=\"line number12 index11 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">b.foo();</code></div> <div class=\"line number13 index12 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">}</code></div> <div class=\"line number14 index13 alt1\"><code class=\"c plain\">} </code></div> </div> </div> </div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  }
+},{
+  "_id": {
+    "$oid": "5e69f7a7da5dcb22cc3fc8b1"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"java keyword\">package</code> <code class=\"java plain\">main;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java keyword\">class</code> <code class=\"java plain\">T {</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">t = </code><code class=\"java value\">20</code><code class=\"java plain\">;</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java plain\">}</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String args[]) {</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">T t1 = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">T();</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(t1.t);</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java plain\">}</code></div>",
+  "topic_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  }
+},{
+  "_id": {
+    "$oid": "5e6a0279da5dcb22cc3fc8b3"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">T {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">t = </code><code class=\"java value\">20</code><code class=\"java plain\">;</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java plain\">T() {</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">t = </code><code class=\"java value\">40</code><code class=\"java plain\">;</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java plain\">}</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Main {</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String args[]) {</code></div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">T t1 = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">T();</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(t1.t);</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java plain\">}</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  }
+},{
+  "_id": {
+    "$oid": "5e6a02f843760d274428d979"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\">Which of the following is true about inheritance in Java?</div> <div class=\"line number1 index0 alt2\">&nbsp;</div> <div class=\"line number1 index0 alt2\"> <pre>1) Constructor name should be same as class name.</pre> <pre>2) If you don't define a constructor for a class, <br />   a default parameterless constructor is automatically <br />   created by the compiler. </pre> <pre>3) The default constructor calls super() and initializes all </pre> <pre>   instance variables to default value like 0, null.</pre> <pre>4) If we want to parent class constructor, it must be called in </pre> <pre>   first line of constructor.</pre> <pre><br /> </pre> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  }
+},{
+  "_id": {
+    "$oid": "5e6a072dda5dcb22cc3fc8b8"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Point {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">m_x, m_y; </code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java plain\">Point(</code><code class=\"java keyword\">int</code> <code class=\"java plain\">x, </code><code class=\"java keyword\">int</code> <code class=\"java plain\">y) {&nbsp;&nbsp;&nbsp; m_x = x;&nbsp;&nbsp;&nbsp; m_y = y;&nbsp; }</code></div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String args[]) </code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Point p = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Point();</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java plain\">}</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  }
+},{
+  "_id": {
+    "$oid": "5e6a0734da5dcb22cc3fc8b9"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"java keyword\">class</code> <code class=\"java plain\">Point {</code></div> <div class=\"line number2 index1 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">int</code> <code class=\"java plain\">m_x, m_y;</code></div> <div class=\"line number3 index2 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code>&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java plain\">Point(</code><code class=\"java keyword\">int</code> <code class=\"java plain\">x, </code><code class=\"java keyword\">int</code> <code class=\"java plain\">y) { m_x = x; m_y = y; }</code></div> <div class=\"line number5 index4 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java plain\">Point() { </code><code class=\"java keyword\">this</code><code class=\"java plain\">(</code><code class=\"java value\">10</code><code class=\"java plain\">, </code><code class=\"java value\">10</code><code class=\"java plain\">); }</code></div> <div class=\"line number6 index5 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">int</code> <code class=\"java plain\">getX() { </code><code class=\"java keyword\">return</code> <code class=\"java plain\">m_x; }</code></div> <div class=\"line number7 index6 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">int</code> <code class=\"java plain\">getY() { </code><code class=\"java keyword\">return</code> <code class=\"java plain\">m_y; }</code></div> <div class=\"line number8 index7 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code>&nbsp;</div> <div class=\"line number9 index8 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java keyword\">public</code> <code class=\"java keyword\">static</code> <code class=\"java keyword\">void</code> <code class=\"java plain\">main(String args[]) {</code></div> <div class=\"line number10 index9 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">Point p = </code><code class=\"java keyword\">new</code> <code class=\"java plain\">Point();</code></div> <div class=\"line number11 index10 alt2\"><code class=\"java spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"java plain\">System.out.println(p.getX());</code></div> <div class=\"line number12 index11 alt1\"><code class=\"java spaces\">&nbsp;&nbsp;</code><code class=\"java plain\">}</code></div> <div class=\"line number13 index12 alt2\"><code class=\"java plain\">} </code></div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  }
+},{
+  "_id": {
+    "$oid": "5eb28913139a8e04af155a9a"
+  },
+  "question_desc": "<p>Which of the followings is/are automatically added to every class, if we do not write our own.</p>>",
+  "topic_id": {
+    "$oid": "5e22be09c216080b8cdd38eb"
+  }
+},{
+  "_id": {
+    "$oid": "5eb289de139a8e04af155aa0"
+  },
+  "question_desc": "<p>When a copy constructor may be called?</p>",
+  "topic_id": {
+    "$oid": "5e22be09c216080b8cdd38eb"
+  }
+},{
+  "_id": {
+    "$oid": "5eb28ec2139a8e04af155aa7"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"c preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c keyword bold\">using</code> <code class=\"c keyword bold\">namespace</code> <code class=\"c plain\">std;</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Point {</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Point() { cout &lt;&lt; </code><code class=\"c string\">\"Constructor called\"</code><code class=\"c plain\">; }</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c plain\">};</code></div> <div class=\"line number6 index5 alt1\">&nbsp;</div> <div class=\"line number7 index6 alt2\"><code class=\"c color1 bold\">int</code> <code class=\"c plain\">main()</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c plain\">{</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Point t1;</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">0;</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c plain\">}</code></div>",
+  "topic_id": {
+    "$oid": "5e22be09c216080b8cdd38eb"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29052139a8e04af155aac"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c keyword bold\">using</code> <code class=\"c keyword bold\">namespace</code> <code class=\"c plain\">std;</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Point {</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c keyword bold\">public</code><code class=\"c plain\">:</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Point() { cout &lt;&lt; </code><code class=\"c string\">\"Constructor called\"</code><code class=\"c plain\">; }</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c plain\">};</code></div> <div class=\"line number7 index6 alt2\">&nbsp;</div> <div class=\"line number8 index7 alt1\"><code class=\"c color1 bold\">int</code> <code class=\"c plain\">main()</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Point t1, *t2;</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">0;</code></div> <div class=\"line number12 index11 alt1\"><code class=\"c plain\">}</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e22be09c216080b8cdd38eb"
+  }
+},{
+  "_id": {
+    "$oid": "5eb2912d139a8e04af155ab1"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\">What is the use of this pointer?</div> </div>",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb291b9139a8e04af155ab7"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c keyword bold\">using</code> <code class=\"c keyword bold\">namespace</code> <code class=\"c plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Test</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c keyword bold\">private</code><code class=\"c plain\">:</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c color1 bold\">int</code> <code class=\"c plain\">x;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c keyword bold\">public</code><code class=\"c plain\">:</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">Test(</code><code class=\"c color1 bold\">int</code> <code class=\"c plain\">x = 0) { </code><code class=\"c keyword bold\">this</code><code class=\"c plain\">-&gt;x = x; }</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c keyword bold\">void</code> <code class=\"c plain\">change(Test *t) { </code><code class=\"c keyword bold\">this</code> <code class=\"c plain\">= t; }</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c keyword bold\">void</code> <code class=\"c plain\">print() { cout &lt;&lt; </code><code class=\"c string\">\"x = \"</code> <code class=\"c plain\">&lt;&lt; x &lt;&lt; endl; }</code></div> <div class=\"line number12 index11 alt1\"><code class=\"c plain\">};</code></div> <div class=\"line number13 index12 alt2\">&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"c color1 bold\">int</code> <code class=\"c plain\">main()</code></div> <div class=\"line number15 index14 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number16 index15 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">Test obj(5);</code></div> <div class=\"line number17 index16 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">Test *ptr = </code><code class=\"c keyword bold\">new</code> <code class=\"c plain\">Test (10);</code></div> <div class=\"line number18 index17 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">obj.change(ptr);</code></div> <div class=\"line number19 index18 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">obj.print();</code></div> <div class=\"line number20 index19 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">0;</code></div> <div class=\"line number21 index20 alt2\"><code class=\"c plain\">}</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb292bc139a8e04af155abd"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Test</code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp keyword bold\">private</code><code class=\"cpp plain\">:</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">x;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">y;</code></div> <div class=\"line number9 index8 alt2\"><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number10 index9 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">Test(</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">x = 0, </code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">y = 0) { </code><code class=\"cpp keyword bold\">this</code><code class=\"cpp plain\">-&gt;x = x; </code><code class=\"cpp keyword bold\">this</code><code class=\"cpp plain\">-&gt;y = y; }</code></div> <div class=\"line number11 index10 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">static</code> <code class=\"cpp keyword bold\">void</code> <code class=\"cpp plain\">fun1() { cout &lt;&lt; </code><code class=\"cpp string\">\"Inside fun1()\"</code><code class=\"cpp plain\">; }</code></div> <div class=\"line number12 index11 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">static</code> <code class=\"cpp keyword bold\">void</code> <code class=\"cpp plain\">fun2() { cout &lt;&lt; </code><code class=\"cpp string\">\"Inside fun2()\"</code><code class=\"cpp plain\">; </code><code class=\"cpp keyword bold\">this</code><code class=\"cpp plain\">-&gt;fun1(); }</code></div> <div class=\"line number13 index12 alt2\"><code class=\"cpp plain\">};</code></div> <div class=\"line number14 index13 alt1\">&nbsp;</div> <div class=\"line number15 index14 alt2\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number16 index15 alt1\"><code class=\"cpp plain\">{</code></div> <div class=\"line number17 index16 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">Test obj;</code></div> <div class=\"line number18 index17 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">obj.fun2();</code></div> <div class=\"line number19 index18 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">return</code> <code class=\"cpp plain\">0;</code></div> <div class=\"line number20 index19 alt1\"><code class=\"cpp plain\">}</code></div>",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29697139a8e04af155ac3"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Test</code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp keyword bold\">private</code><code class=\"cpp plain\">:</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">x;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number9 index8 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">Test() {x = 0;}</code></div> <div class=\"line number10 index9 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">void</code> <code class=\"cpp plain\">destroy()&nbsp; { </code><code class=\"cpp keyword bold\">delete</code> <code class=\"cpp keyword bold\">this</code><code class=\"cpp plain\">; }</code></div> <div class=\"line number11 index10 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">void</code> <code class=\"cpp plain\">print() { cout &lt;&lt; </code><code class=\"cpp string\">\"x = \"</code> <code class=\"cpp plain\">&lt;&lt; x; }</code></div> <div class=\"line number12 index11 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number13 index12 alt2\">&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number15 index14 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number16 index15 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">Test obj;</code></div> <div class=\"line number17 index16 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">obj.destroy();</code></div> <div class=\"line number18 index17 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">obj.print();</code></div> <div class=\"line number19 index18 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">return</code> <code class=\"cpp plain\">0;</code></div> <div class=\"line number20 index19 alt1\"><code class=\"cpp plain\">}</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29726139a8e04af155ac8"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number3 index2 alt2\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number4 index3 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Base1 {</code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp spaces\">&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Base1()</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">{ cout &lt;&lt; </code><code class=\"cpp string\">\" Base1's constructor called\"</code> <code class=\"cpp plain\">&lt;&lt; endl;&nbsp; }</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number9 index8 alt2\"><code class=\"cpp spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number10 index9 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Base2 {</code></div> <div class=\"line number11 index10 alt2\"><code class=\"cpp spaces\">&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number12 index11 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Base2()</code></div> <div class=\"line number13 index12 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">{ cout &lt;&lt; </code><code class=\"cpp string\">\"Base2's constructor called\"</code> <code class=\"cpp plain\">&lt;&lt; endl;&nbsp; }</code></div> <div class=\"line number14 index13 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number15 index14 alt2\"><code class=\"cpp spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number16 index15 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Derived: </code><code class=\"cpp keyword bold\">public</code> <code class=\"cpp plain\">Base1, </code><code class=\"cpp keyword bold\">public</code> <code class=\"cpp plain\">Base2 {</code></div> <div class=\"line number17 index16 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number18 index17 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Derived()</code></div> <div class=\"line number19 index18 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">{&nbsp; cout &lt;&lt; </code><code class=\"cpp string\">\"Derived's constructor called\"</code> <code class=\"cpp plain\">&lt;&lt; endl;&nbsp; }</code></div> <div class=\"line number20 index19 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number21 index20 alt2\"><code class=\"cpp spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number22 index21 alt1\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number23 index22 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number24 index23 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Derived d;</code></div> <div class=\"line number25 index24 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">return</code> <code class=\"cpp plain\">0;</code></div> <div class=\"line number26 index25 alt1\"><code class=\"cpp plain\">}</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22befcc216080b8cdd38f0"
+  }
+},{
+  "_id": {
+    "$oid": "5eb299d5139a8e04af155ace"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include &lt;iostream&gt;&nbsp; </code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Base1 {</code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp spaces\">&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">~Base1()&nbsp; { cout &lt;&lt; </code><code class=\"cpp string\">\" Base1's destructor\"</code> <code class=\"cpp plain\">&lt;&lt; endl; }</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp plain\">};</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code>&nbsp;</div> <div class=\"line number9 index8 alt2\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Base2 {</code></div> <div class=\"line number10 index9 alt1\"><code class=\"cpp spaces\">&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number11 index10 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">~Base2()&nbsp; { cout &lt;&lt; </code><code class=\"cpp string\">\" Base2's destructor\"</code> <code class=\"cpp plain\">&lt;&lt; endl; }</code></div> <div class=\"line number12 index11 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number13 index12 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code>&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Derived: </code><code class=\"cpp keyword bold\">public</code> <code class=\"cpp plain\">Base1, </code><code class=\"cpp keyword bold\">public</code> <code class=\"cpp plain\">Base2 {</code></div> <div class=\"line number15 index14 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">public</code><code class=\"cpp plain\">:</code></div> <div class=\"line number16 index15 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">~Derived()&nbsp; { cout &lt;&lt; </code><code class=\"cpp string\">\" Derived's destructor\"</code> <code class=\"cpp plain\">&lt;&lt; endl; }</code></div> <div class=\"line number17 index16 alt2\"><code class=\"cpp plain\">};</code></div> <div class=\"line number18 index17 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code>&nbsp;</div> <div class=\"line number19 index18 alt2\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number20 index19 alt1\"><code class=\"cpp plain\">{</code></div> <div class=\"line number21 index20 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Derived d;</code></div> <div class=\"line number22 index21 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">return</code> <code class=\"cpp plain\">0;</code></div> <div class=\"line number23 index22 alt2\"><code class=\"cpp plain\">}</code></div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22befcc216080b8cdd38f0"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29a8b139a8e04af155ad4"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c keyword bold\">using</code> <code class=\"c keyword bold\">namespace</code> <code class=\"c plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">base {</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c color1 bold\">int</code> <code class=\"c plain\">arr[10];</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c plain\">};</code></div> <div class=\"line number7 index6 alt2\">&nbsp;</div> <div class=\"line number8 index7 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">b1: </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">base { };</code></div> <div class=\"line number9 index8 alt2\">&nbsp;</div> <div class=\"line number10 index9 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">b2: </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">base { };</code></div> <div class=\"line number11 index10 alt2\">&nbsp;</div> <div class=\"line number12 index11 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">derived: </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">b1, </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">b2 {};</code></div> <div class=\"line number13 index12 alt2\">&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"c color1 bold\">int</code> <code class=\"c plain\">main(</code><code class=\"c keyword bold\">void</code><code class=\"c plain\">)</code></div> <div class=\"line number15 index14 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number16 index15 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">cout &lt;&lt; </code><code class=\"c keyword bold\">sizeof</code><code class=\"c plain\">(derived);</code></div> <div class=\"line number17 index16 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">0;</code></div> <div class=\"line number18 index17 alt1\"><code class=\"c plain\">}</code></div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22befcc216080b8cdd38f0"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29b01139a8e04af155ada"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number3 index2 alt2\"><code class=\"c keyword bold\">using</code> <code class=\"c keyword bold\">namespace</code> <code class=\"c plain\">std;</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">P {</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c keyword bold\">public</code><code class=\"c plain\">:</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">void</code> <code class=\"c plain\">print()&nbsp; { cout &lt;&lt;</code><code class=\"c string\">\" Inside P\"</code><code class=\"c plain\">; }</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c plain\">};</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number9 index8 alt2\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">Q : </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">P {</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c keyword bold\">public</code><code class=\"c plain\">:</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">void</code> <code class=\"c plain\">print() { cout &lt;&lt;</code><code class=\"c string\">\" Inside Q\"</code><code class=\"c plain\">; }</code></div> <div class=\"line number12 index11 alt1\"><code class=\"c plain\">};</code></div> <div class=\"line number13 index12 alt2\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"c keyword bold\">class</code> <code class=\"c plain\">R: </code><code class=\"c keyword bold\">public</code> <code class=\"c plain\">Q { };</code></div> <div class=\"line number15 index14 alt2\"><code class=\"c spaces\">&nbsp;</code>&nbsp;</div> <div class=\"line number16 index15 alt1\"><code class=\"c color1 bold\">int</code> <code class=\"c plain\">main(</code><code class=\"c keyword bold\">void</code><code class=\"c plain\">)</code></div> <div class=\"line number17 index16 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number18 index17 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">R r; </code></div> <div class=\"line number19 index18 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c plain\">r.print();</code></div> <div class=\"line number20 index19 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;</code><code class=\"c keyword bold\">return</code> <code class=\"c plain\">0;</code></div> <div class=\"line number21 index20 alt2\"><code class=\"c plain\">}</code></div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22befcc216080b8cdd38f0"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29bcb139a8e04af155adf"
+  },
+  "question_desc": "How to create a dynamic array of pointers (to integers) of size 10 using new in C++? Hint: We can create a non-dynamic array using int *arr[10]",
+  "topic_id": {
+    "$oid": "5e22bf0cc216080b8cdd38f1"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29c3a139a8e04af155ae5"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include &lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"cpp keyword bold\">class</code> <code class=\"cpp plain\">Test </code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">x;</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;</code><code class=\"cpp plain\">Test() { x = 5;}</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp plain\">};</code></div> <div class=\"line number9 index8 alt2\">&nbsp;</div> <div class=\"line number10 index9 alt1\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number11 index10 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number12 index11 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">Test *t = </code><code class=\"cpp keyword bold\">new</code> <code class=\"cpp plain\">Test;</code></div> <div class=\"line number13 index12 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"cpp plain\">cout &lt;&lt; t-&gt;x;</code></div> <div class=\"line number14 index13 alt1\"><code class=\"cpp plain\">}</code></div> </div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22bf0cc216080b8cdd38f1"
+  }
+},{
+  "_id": {
+    "$oid": "5eb29cbe139a8e04af155aeb"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"cpp preprocessor\">#include&lt;iostream&gt;</code></div> <div class=\"line number2 index1 alt1\"><code class=\"cpp keyword bold\">using</code> <code class=\"cpp keyword bold\">namespace</code> <code class=\"cpp plain\">std;</code></div> <div class=\"line number3 index2 alt2\">&nbsp;</div> <div class=\"line number4 index3 alt1\"><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">main()</code></div> <div class=\"line number5 index4 alt2\"><code class=\"cpp plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp color1 bold\">int</code> <code class=\"cpp plain\">*ptr = </code><code class=\"cpp keyword bold\">new</code> <code class=\"cpp color1 bold\">int</code><code class=\"cpp plain\">;</code></div> <div class=\"line number7 index6 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">delete</code> <code class=\"cpp plain\">ptr;</code></div> <div class=\"line number8 index7 alt1\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">delete</code> <code class=\"cpp plain\">ptr;</code></div> <div class=\"line number9 index8 alt2\"><code class=\"cpp spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"cpp keyword bold\">return</code> <code class=\"cpp plain\">0;</code></div> <div class=\"line number10 index9 alt1\"><code class=\"cpp plain\">}</code></div> </div> </div> </div> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e22bf0cc216080b8cdd38f1"
+  }
+},{
+  "_id": {
+    "$oid": "5eb355694bf21802ea58d00e"
+  },
+  "question_desc": "print type(type(int))",
+  "topic_id": {
+    "$oid": "5e58e3380f82f0344c5d83d2"
+  }
+},{
+  "_id": {
+    "$oid": "5eb356264bf21802ea58d014"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"python plain\">y </code><code class=\"python keyword\">=</code> <code class=\"python value\">8</code></div> <div class=\"line number2 index1 alt1\"><code class=\"python plain\">z </code><code class=\"python keyword\">=</code> <code class=\"python keyword\">lambda</code> <code class=\"python plain\">x : x </code><code class=\"python keyword\">*</code> <code class=\"python plain\">y</code></div> <div class=\"line number3 index2 alt2\"><code class=\"python functions\">print</code> <code class=\"python plain\">z(</code><code class=\"python value\">6</code><code class=\"python plain\">)</code></div>",
+  "topic_id": {
+    "$oid": "5e58e3380f82f0344c5d83d2"
+  }
+},{
+  "_id": {
+    "$oid": "5eb364054bf21802ea58d01a"
+  },
+  "question_desc": "What is called when a function is defined inside a class?",
+  "topic_id": {
+    "$oid": "5e58e3380f82f0344c5d83d2"
+  }
+},{
+  "_id": {
+    "$oid": "5eb364724bf21802ea58d020"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"python keyword\">import</code> <code class=\"python plain\">re</code></div> <div class=\"line number2 index1 alt1\"><code class=\"python plain\">sentence </code><code class=\"python keyword\">=</code> <code class=\"python string\">'horses are fast'</code></div> <div class=\"line number3 index2 alt2\"><code class=\"python plain\">regex </code><code class=\"python keyword\">=</code> <code class=\"python plain\">re.</code><code class=\"python functions\">compile</code><code class=\"python plain\">(</code><code class=\"python string\">'(?P&lt;animal&gt;w+) (?P&lt;verb&gt;w+) (?P&lt;adjective&gt;w+)'</code><code class=\"python plain\">)</code></div> <div class=\"line number4 index3 alt1\"><code class=\"python plain\">matched </code><code class=\"python keyword\">=</code> <code class=\"python plain\">re.search(regex, sentence)</code></div> <div class=\"line number5 index4 alt2\"><code class=\"python functions\">print</code><code class=\"python plain\">(matched.groupdict())</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e58e3380f82f0344c5d83d2"
+  }
+},{
+  "_id": {
+    "$oid": "5eb364e54bf21802ea58d026"
+  },
+  "question_desc": "print \"Hello World\"[::-1]",
+  "topic_id": {
+    "$oid": "5e58e3410f82f0344c5d83d3"
+  }
+},{
+  "_id": {
+    "$oid": "5eb365574bf21802ea58d02c"
+  },
+  "question_desc": "Given a function that does not return any value, what value is shown when executed at the shell?",
+  "topic_id": {
+    "$oid": "5e58e3410f82f0344c5d83d3"
+  }
+},{
+  "_id": {
+    "$oid": "5eb365c04bf21802ea58d032"
+  },
+  "question_desc": "Which module in Python supports regular expressions?",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb3660d4bf21802ea58d038"
+  },
+  "question_desc": "print 0.1 + 0.2 == 0.3",
+  "topic_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  }
+},{
+  "_id": {
+    "$oid": "5eb366784bf21802ea58d03e"
+  },
+  "question_desc": "What data type is the object below ? L = [1, 23, ‘hello’, 1]",
+  "topic_id": {
+    "$oid": "5e58e3510f82f0344c5d83d4"
+  }
+},{
+  "_id": {
+    "$oid": "5eb366d34bf21802ea58d044"
+  },
+  "question_desc": "Which of the following function convert a string to a float in python?",
+  "topic_id": {
+    "$oid": "5e58e3510f82f0344c5d83d4"
+  }
+},{
+  "_id": {
+    "$oid": "5eb367314bf21802ea58d04a"
+  },
+  "question_desc": "Which of these is not a core data type?",
+  "topic_id": {
+    "$oid": "5e58e3510f82f0344c5d83d4"
+  }
+},{
+  "_id": {
+    "$oid": "5eb367c64bf21802ea58d050"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"python keyword\">def</code> <code class=\"python plain\">myfunc(a):</code></div> <div class=\"line number2 index1 alt1\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python plain\">a </code><code class=\"python keyword\">=</code> <code class=\"python plain\">a </code><code class=\"python keyword\">+</code> <code class=\"python value\">2</code></div> <div class=\"line number3 index2 alt2\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python plain\">a </code><code class=\"python keyword\">=</code> <code class=\"python plain\">a </code><code class=\"python keyword\">*</code> <code class=\"python value\">2</code></div> <div class=\"line number4 index3 alt1\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python keyword\">return</code> <code class=\"python plain\">a</code></div> <div class=\"line number5 index4 alt2\">&nbsp;</div> <div class=\"line number6 index5 alt1\"><code class=\"python functions\">print</code> <code class=\"python plain\">myfunc(</code><code class=\"python value\">2</code><code class=\"python plain\">)</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e3590f82f0344c5d83d5"
+  }
+},{
+  "_id": {
+    "$oid": "5eb368184bf21802ea58d056"
+  },
+  "question_desc": "What is the output of the expression : 3*1**3",
+  "topic_id": {
+    "$oid": "5e58e3590f82f0344c5d83d5"
+  }
+},{
+  "_id": {
+    "$oid": "5eb368874bf21802ea58d05c"
+  },
+  "question_desc": "print '{0:.2}'.format(1.0 / 3)",
+  "topic_id": {
+    "$oid": "5e58e3590f82f0344c5d83d5"
+  }
+},{
+  "_id": {
+    "$oid": "5eb368fc4bf21802ea58d062"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"><code class=\"python plain\">i </code><code class=\"python keyword\">=</code> <code class=\"python value\">0</code></div> <div class=\"line number2 index1 alt1\"><code class=\"python keyword\">while</code> <code class=\"python plain\">i &lt; </code><code class=\"python value\">3</code><code class=\"python plain\">: </code></div> <div class=\"line number3 index2 alt2\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python functions\">print</code> <code class=\"python plain\">i </code></div> <div class=\"line number4 index3 alt1\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python plain\">i </code><code class=\"python keyword\">+</code><code class=\"python keyword\">=</code> <code class=\"python value\">1</code></div> <div class=\"line number5 index4 alt2\"><code class=\"python keyword\">else</code><code class=\"python plain\">: </code></div> <div class=\"line number6 index5 alt1\"><code class=\"python spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"python functions\">print</code> <code class=\"python value\">0</code></div>",
+  "topic_id": {
+    "$oid": "5e58e3590f82f0344c5d83d5"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36bd04bf21802ea58d068"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <pre class=\"brush: cpp; title: ; notranslate\" title=\"\">void fun1(struct node* head) {   if(head == NULL)     return;      fun1(head-&gt;next);   printf(\"%d  \", head-&gt;data); }</pre> </div>",
+  "topic_id": {
+    "$oid": "5e58e40b0f82f0344c5d83d6"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36c704bf21802ea58d06e"
+  },
+  "question_desc": "Which of the following points is/are true about Linked List data structure when it is compared with array",
+  "topic_id": {
+    "$oid": "5e58e40b0f82f0344c5d83d6"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36db64bf21802ea58d075"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c keyword bold\">void</code> <code class=\"c plain\">fun(</code><code class=\"c keyword bold\">struct</code> <code class=\"c plain\">node **head_ref)</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c plain\">{</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">struct</code> <code class=\"c plain\">node *temp = NULL;</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">struct</code> <code class=\"c plain\">node *current = *head_ref;</code></div> <div class=\"line number5 index4 alt2\">&nbsp;</div> <div class=\"line number6 index5 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">while</code> <code class=\"c plain\">(current !=&nbsp; NULL)</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">{</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">temp = current-&gt;prev;</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">current-&gt;prev = current-&gt;next;</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">current-&gt;next = temp;</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">current = current-&gt;prev;</code></div> <div class=\"line number12 index11 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">}</code></div> <div class=\"line number13 index12 alt2\">&nbsp;</div> <div class=\"line number14 index13 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">if</code><code class=\"c plain\">(temp != NULL )</code></div> <div class=\"line number15 index14 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">*head_ref = temp-&gt;prev;</code></div> <div class=\"line number16 index15 alt1\"><code class=\"c plain\">}</code></div> </div>",
+  "topic_id": {
+    "$oid": "5e58e40b0f82f0344c5d83d6"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36eba4bf21802ea58d07b"
+  },
+  "question_desc": "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
+  "topic_id": {
+    "$oid": "5e58e40b0f82f0344c5d83d6"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36f714bf21802ea58d081"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c keyword bold\">void</code> <code class=\"c plain\">fun(</code><code class=\"c color1 bold\">int</code> <code class=\"c plain\">n)</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c plain\">{</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">Stack S;&nbsp; </code><code class=\"c comments\">// Say it creates an empty stack S</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">while</code> <code class=\"c plain\">(n &gt; 0)</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">{</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c comments\">// This line pushes the value of n%2 to stack S</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">push(&amp;S, n%2);</code></div> <div class=\"line number8 index7 alt1\">&nbsp;</div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">n = n/2;</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">}</code></div> <div class=\"line number11 index10 alt2\">&nbsp;</div> <div class=\"line number12 index11 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c comments\">// Run while Stack S is not empty</code></div> <div class=\"line number13 index12 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c keyword bold\">while</code> <code class=\"c plain\">(!isEmpty(&amp;S))</code></div> <div class=\"line number14 index13 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class=\"c functions bold\">printf</code><code class=\"c plain\">(</code><code class=\"c string\">\"%d \"</code><code class=\"c plain\">, pop(&amp;S)); </code><code class=\"c comments\">// pop an element from S and print it</code></div> <div class=\"line number15 index14 alt2\"><code class=\"c plain\">}</code></div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e41c0f82f0344c5d83d7"
+  }
+},{
+  "_id": {
+    "$oid": "5eb36ff64bf21802ea58d087"
+  },
+  "question_desc": "Which one of the following is an application of Stack Data Structure?",
+  "topic_id": {
+    "$oid": "5e58e41c0f82f0344c5d83d7"
+  }
+},{
+  "_id": {
+    "$oid": "5eb370664bf21802ea58d08d"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"><code class=\"c plain\">declare a stack of characters</code></div> <div class=\"line number2 index1 alt1\"><code class=\"c keyword bold\">while</code> <code class=\"c plain\">( there are more characters in the word to read )</code></div> <div class=\"line number3 index2 alt2\"><code class=\"c plain\">{</code></div> <div class=\"line number4 index3 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">read a character</code></div> <div class=\"line number5 index4 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">push the character on the stack</code></div> <div class=\"line number6 index5 alt1\"><code class=\"c plain\">}</code></div> <div class=\"line number7 index6 alt2\"><code class=\"c keyword bold\">while</code> <code class=\"c plain\">( the stack is not empty )</code></div> <div class=\"line number8 index7 alt1\"><code class=\"c plain\">{</code></div> <div class=\"line number9 index8 alt2\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">pop a character off the stack</code></div> <div class=\"line number10 index9 alt1\"><code class=\"c spaces\">&nbsp;&nbsp;&nbsp;</code><code class=\"c plain\">write the character to the screen</code></div> <div class=\"line number11 index10 alt2\"><code class=\"c plain\">}</code></div> <div class=\"line number11 index10 alt2\">&nbsp;</div> <div class=\"line number11 index10 alt2\"><code class=\"c plain\">What is output for input \"geeksquiz\"?</code></div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e41c0f82f0344c5d83d7"
+  }
+},{
+  "_id": {
+    "$oid": "5eb370c14bf21802ea58d093"
+  },
+  "question_desc": "Which of the following is a true about Binary Trees",
+  "topic_id": {
+    "$oid": "5e58e42a0f82f0344c5d83d8"
+  }
+},{
+  "_id": {
+    "$oid": "5eb3712a4bf21802ea58d09a"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\">What are the main applications of tree data structure? 1) Manipulate hierarchical data 2) Make information easy to search (see tree traversal). 3) Manipulate sorted lists of data 4) Router algorithms 5) Form of a multi-stage decision-making, like Chess Game. 6) As a workflow for compositing digital images for visual effects</div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e42a0f82f0344c5d83d8"
+  }
+},{
+  "_id": {
+    "$oid": "5eb3718f4bf21802ea58d0a0"
+  },
+  "question_desc": "The maximum number of binary trees that can be formed with three unlabeled nodes is:",
+  "topic_id": {
+    "$oid": "5e58e42a0f82f0344c5d83d8"
+  }
+},{
+  "_id": {
+    "$oid": "5eb371e54bf21802ea58d0a6"
+  },
+  "question_desc": "<div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\"> <div class=\"line number1 index0 alt2\">The degree sequence of a simple graph is the sequence of the degrees of the nodes in the graph in decreasing order. Which of the following sequences can not be the degree sequence of any graph?</div> <div class=\"line number1 index0 alt2\">&nbsp;</div> <div class=\"line number1 index0 alt2\"> <pre>I. 7, 6, 5, 4, 4, 3, 2, 1<br /> II. 6, 6, 6, 6, 3, 3, 2, 2<br /> III. 7, 6, 6, 4, 4, 3, 2, 2<br /> IV. 8, 7, 7, 6, 4, 2, 1, 1 </pre> </div> </div> </div> </div>",
+  "topic_id": {
+    "$oid": "5e58e43a0f82f0344c5d83d9"
+  }
+},{
+  "_id": {
+    "$oid": "5eb372594bf21802ea58d0ac"
+  },
+  "question_desc": "The time complexity of computing the transitive closure of a binary relation on a set of n elements is known to be:",
+  "topic_id": {
+    "$oid": "5e58e43a0f82f0344c5d83d9"
+  }
+},{
+  "_id": {
+    "$oid": "5eb377cf4bf21802ea58d0b2"
+  },
+  "question_desc": "How many undirected graphs (not necessarily connected) can be constructed out of a given set V= {V 1, V 2,…V n} of n vertices ?",
+  "topic_id": {
+    "$oid": "5e58e43a0f82f0344c5d83d9"
+  }
+},{
+  "_id": {
+    "$oid": "5eb37b6e4bf21802ea58d0b8"
+  },
+  "question_desc": "Which one of the following hash functions on integers will distribute keys most uniformly over 10 buckets numbered 0 to 9 for i ranging from 0 to 2020?",
+  "topic_id": {
+    "$oid": "5e58e4610f82f0344c5d83da"
+  }
+},{
+  "_id": {
+    "$oid": "5eb37c004bf21802ea58d0be"
+  },
+  "question_desc": "Given the following input (4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199) and the hash function x mod 10, which of the following statements are true? i. 9679, 1989, 4199 hash to the same value ii. 1471, 6171 hash to the same value iii. All elements hash to the same value iv. Each element hashes to a different value (GATE CS 2004)",
+  "topic_id": {
+    "$oid": "5e58e4610f82f0344c5d83da"
+  }
+}]

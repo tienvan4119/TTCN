@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "5e22bd4f0cfb642ae4106b6a"
+  },
+  "title": "C plus - plus",
+  "_class": "com.aptech.project.project_sem4.model.Section"
+},{
+  "_id": {
+    "$oid": "5e22bd860cfb642ae4106b6b"
+  },
+  "title": "Java",
+  "_class": "com.aptech.project.project_sem4.model.Section"
+},{
+  "_id": {
+    "$oid": "5e22bd980cfb642ae4106b6c"
+  },
+  "title": "Python",
+  "_class": "com.aptech.project.project_sem4.model.Section"
+},{
+  "_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  },
+  "title": "Data Structures",
+  "_class": "com.aptech.project.project_sem4.model.Section"
+}]

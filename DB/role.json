@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "5e35b439937d325298c9f344"
+  },
+  "role": "ADMIN",
+  "_class": "com.aptech.project.project_sem4.model.Role"
+},{
+  "_id": {
+    "$oid": "5e35b6146388e21ec83455b9"
+  },
+  "role": "USER",
+  "_class": "com.aptech.project.project_sem4.model.Role"
+}]

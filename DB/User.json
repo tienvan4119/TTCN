@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "5e764c4dabe75f28da44738f"
+  },
+  "firstName": "Tien",
+  "lastName": "Nguyen",
+  "email": "vannt808@gmail.com",
+  "password": "$2a$10$RJ/ME3femhSHW1EYprprR.RrmAgD85Vt32rwsoE4bkVEqwHxMlZeG",
+  "enabled": true,
+  "confirmation_token": "334c6e14-2459-423e-a265-b61decf0ee9f",
+  "roles": [
+    {
+      "$ref": "role",
+      "$id": {
+        "$oid": "5e35b439937d325298c9f344"
+      }
+    }
+  ],
+  "_class": "com.aptech.project.project_sem4.model.User"
+},{
+  "_id": {
+    "$oid": "5eb15671c53ace2db4ed0479"
+  },
+  "firstName": "tran",
+  "lastName": "thuan",
+  "email": "tranthuan0406@gmail.com",
+  "password": "$2a$10$4bcVPpj5/cQP0lSTwiSe.OhgcPXLeJZfkrchepjB3cvNNJa3HSvaS",
+  "enabled": true,
+  "confirmation_token": "3642c928-938f-4910-a066-0f04c8843f93",
+  "roles": [
+    {
+      "$ref": "role",
+      "$id": {
+        "$oid": "5e35b6146388e21ec83455b9"
+      }
+    }
+  ],
+  "_class": "com.aptech.project.project_sem4.model.User"
+},{
+  "_id": {
+    "$oid": "5ed4a7daa027240ae8626fb7"
+  },
+  "firstName": "Van",
+  "lastName": "Tien",
+  "email": "vannt4119@gmail.com",
+  "password": "$2a$10$77K4HYxYXiAayXZcJJKhk.lgB6D0zKMcucsu0zChrcA1EGtNWMoV2",
+  "enabled": true,
+  "confirmation_token": "97f96dcf-f676-420f-b6fe-7a93fa0cbeaa",
+  "roles": [
+    {
+      "$ref": "role",
+      "$id": {
+        "$oid": "5e35b6146388e21ec83455b9"
+      }
+    }
+  ],
+  "_class": "com.aptech.project.project_sem4.model.User"
+}]

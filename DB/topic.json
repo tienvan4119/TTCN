@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "5e22be09c216080b8cdd38eb"
+  },
+  "title": "Constructors",
+  "section_id": {
+    "$oid": "5e22bd4f0cfb642ae4106b6a"
+  }
+},{
+  "_id": {
+    "$oid": "5e22bec5c216080b8cdd38ed"
+  },
+  "title": "This Pointer",
+  "section_id": {
+    "$oid": "5e22bd4f0cfb642ae4106b6a"
+  }
+},{
+  "_id": {
+    "$oid": "5e22befcc216080b8cdd38f0"
+  },
+  "title": "Inheritance",
+  "section_id": {
+    "$oid": "5e22bd4f0cfb642ae4106b6a"
+  }
+},{
+  "_id": {
+    "$oid": "5e22bf0cc216080b8cdd38f1"
+  },
+  "title": "New and Delete",
+  "section_id": {
+    "$oid": "5e22bd4f0cfb642ae4106b6a"
+  }
+},{
+  "_id": {
+    "$oid": "5e22bfc3c216080b8cdd38f3"
+  },
+  "title": "Functions",
+  "section_id": {
+    "$oid": "5e22bd860cfb642ae4106b6b"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e0e80f82f0344c5d83cc"
+  },
+  "title": "Inheritance",
+  "section_id": {
+    "$oid": "5e22bd860cfb642ae4106b6b"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e1050f82f0344c5d83cd"
+  },
+  "title": "Constructors",
+  "section_id": {
+    "$oid": "5e22bd860cfb642ae4106b6b"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e11b0f82f0344c5d83cf"
+  },
+  "title": "Arrays",
+  "section_id": {
+    "$oid": "5e22bd860cfb642ae4106b6b"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e3380f82f0344c5d83d2"
+  },
+  "title": "Functions",
+  "section_id": {
+    "$oid": "5e22bd980cfb642ae4106b6c"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e3410f82f0344c5d83d3"
+  },
+  "title": "Miscellaneous",
+  "section_id": {
+    "$oid": "5e22bd980cfb642ae4106b6c"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e3510f82f0344c5d83d4"
+  },
+  "title": "Data Type",
+  "section_id": {
+    "$oid": "5e22bd980cfb642ae4106b6c"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e3590f82f0344c5d83d5"
+  },
+  "title": "Output",
+  "section_id": {
+    "$oid": "5e22bd980cfb642ae4106b6c"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e40b0f82f0344c5d83d6"
+  },
+  "title": "Linked List",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e41c0f82f0344c5d83d7"
+  },
+  "title": "Stack",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e42a0f82f0344c5d83d8"
+  },
+  "title": "Binary Trees",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e43a0f82f0344c5d83d9"
+  },
+  "title": "Graph",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e4610f82f0344c5d83da"
+  },
+  "title": "Hash",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+},{
+  "_id": {
+    "$oid": "5e58e4690f82f0344c5d83db"
+  },
+  "title": "Misc",
+  "section_id": {
+    "$oid": "5e22bdb80cfb642ae4106b6d"
+  }
+}]
